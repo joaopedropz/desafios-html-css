@@ -1,0 +1,52 @@
+:root {
+    font-family: Verdana;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section header {
+    width: auto;
+    height: 200px;
+    display: flex;
+    background:linear-gradient(#2196F3,#3D5AFE,#0D47A1);
+    margin-top:20px;
+    color: white;
+    flex-direction: column; 
+    margin:0 auto;
+    justify-content: center;  
+}
+
+section header h1,h5,.material-icons {
+ display: flex;
+ margin: 0 auto;
+}
+
+section#formulario  {
+    width: 375px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+section#formulario fieldset {
+    height: auto;
+    width: 350px; 
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#design {
+    color: white;
+    background-color: #3D5AFE;
+    padding: 5px;
+    margin-top: 10px;
+}
